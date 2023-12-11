@@ -3,11 +3,17 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    font-family:'Barlow Condensed', sans-serif;
 }
 
 body {
     min-height: 100vh;
     font-size: 20px;
+    color: rgb(51, 46, 46);
+}
+
+p {
+    line-height: 1.5;
 }
 
 .one {
@@ -34,9 +40,10 @@ header {
     width: 100%;
     height: 80px;
     display: flex;
-    padding: 20px;
+    padding: 20px 120px;
+    font-weight: 600;
+    font-family: sans-serif;
     justify-content: space-between;
-    top: ;
     z-index: 1;
 }
 
@@ -46,7 +53,8 @@ header ul {
 
 header ul li {
     display: inline-block;
-    padding: 20px 15px;
+    padding: 20px 10px;
+    font-size: 17px;
 }
 
 header ul li a {
@@ -61,20 +69,20 @@ header img {
 .text {
     text-align: center;
     display: block;
-    width: 50%;
+    width: 56%;
     height: 250px;
     position: relative;
-    top: 40%;
+    top: 30%;
     margin: 0 auto;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .text h1 {
-    font-size: 51px;
+    font-size: 70px;
 }
 
 .text p {
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .text h1 span {
@@ -83,17 +91,19 @@ header img {
 
 .text button {
     margin-top: 30px;
-    padding: 10px 30px;
+    padding: 15px 30px;
     border-radius: 50px;
     border: none;
     width: 250px;
-    background-color: orangered;
+    background-color: rgb(219, 103, 60);
     color: white;
+    font-size: 20px;
+    cursor: pointer;
 }
 
 .two {
     height: 100vh;
-    padding: 150px 70px;
+    padding: 100px 70px;
     display: flex;
     justify-content: space-between;
 }
@@ -105,20 +115,266 @@ header img {
 }
 
 .two .a video {
-    top: 0;
-    position: relative;
     width: 105%;
     height: 400px;
     object-position: center;
 }
 
 .two .b {
-    padding-top: 30px;
+    padding-top: px;
+}
+
+.two .b h2 {
+    color: rgb(219, 103, 60);
+    font-size: 40px;
 }
 
 .thr {
-    border: 1px solid red;
     height: 200vh;
-    background-color: black;
+    background-color: rgb(20, 17, 17);
     color: white;
+    text-align: center;
+    padding: 50px 120px;
+}
+
+.thra h1 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.thra {
+    float: left;
+    width: 44%;
+    height: 450px;
+    font-size: 20px;
+    text-align: start;
+    margin: 50px 20px;
+    padding: 5px;
+}
+
+.thra img {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.thr .img2 img {
+    box-shadow: -10px 15px rgba(30, 78, 80, 0.644);
+}
+
+.thr .img1 img {
+    box-shadow: -10px 15px rgba(31, 0, 0, 0.938);
+}
+
+.thra button {
+    width: 50%;
+    border-radius: 50px;
+    border: none;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.thra .b1 {
+    background-color: rgb(219, 103, 60);
+    color: white;
+}
+
+.thra .b2 {
+    background-color: yellow;
+}
+
+.four {
+    height: 220vh;
+    padding: 80px 100px;
+}
+
+.four .f-txt {
+    text-align: center;
+    margin: 70px 0;
+    font-size: 20px;
+}
+
+.four .f1 {
+    float: left;
+    width: 48.2%;
+    margin: 50px 10px 100px;
+}
+
+.four .f1 img {
+    width: 100%;
+    height: 420px;
+    border-radius: 20px 20px 0 0;
+}
+
+.four .f1 .f1_txt {
+    margin-top: 20px;
+}
+
+.four .f2 {
+    width: 65%;
+    display: flex;
+    font-size: 19px;
+    margin: 20px 40px;
+}
+
+.four .f2 img {
+    width: 250px;
+    height: 150px;
+    border-radius: 20px 20px 0 0;
+}
+
+.four .f2b {
+    float: right;
+}
+
+.f2a .f2_txt {
+    padding-left: 15px;
+    font-size: 18px;
+}
+
+.f2b .f2_txt {
+    padding-right: 15px;
+    font-size: 18px;
+}
+
+.f2_txt h2 {
+    font-size: 30px;   
+}
+
+.five {
+    height: 100vh;
+    position: relative;
+    font: 20px;
+}
+
+.five::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/img1.jpg);
+    background-size: cover;
+    opacity: 0.1;
+}
+
+.five .five-t {
+    text-align: center;
+    padding: 80px 0 50px;
+}
+
+.five .five-t h1 {
+    font-size: 40px;
+}
+
+.five .fa {
+    float: left;
+    width: 35%;
+    text-align: center;
+}
+
+.five .fa img {
+    width: 100%;
+    height: 320px;
+    border-radius: 20px 20px 0 0;
+}
+
+.five .fa1 {
+    margin: 0 24px 0 200px;
+}
+
+.six {
+    height: 100vh;
+    position: relative;
+    background-image: url(/img/en-img01.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.six::before {
+    content: "";
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+}
+
+.six .txts {
+    position: relative;
+    padding: 150px;
+    width: 61%;
+}
+
+.six .txts h1 {
+    font-size: 55px;
+}
+
+.six .txts span {
+    color: rgb(236, 236, 87);
+}
+
+.six .txts div {
+    border: 1px solid rgb(219, 103, 60);
+    width: 90%;
+    height: 65px;
+    display: flex;
+    border-radius: 5px;
+}
+
+.six .txts div .inp_txt {
+    width: 70%;
+    background-color: transparent;
+    border: none;
+    padding: 15px;
+    color: white;
+}
+
+.six .txts div .inp_txt::placeholder {
+    padding-left: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.six .txts div .butt {
+    width: 30%;
+    background-color: rgb(219, 103, 60);
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.footer {
+    height: 150px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.footer div {
+    float: left;
+    width: 22.5%;
+    height: 150px;
+    padding-top: 40px;
+}
+
+.footer .foot-img {
+    width: 32%;
+}
+
+.footer .foot-img img {
+    width: 20%;
+    height: 70px;
+    margin: 0px 150px;
+}
+
+.footer .social span {
+    font-size: 27px;
+    margin-right: 13px;
+}
+
+.footer .social span a i {
+    color: black;
 }
